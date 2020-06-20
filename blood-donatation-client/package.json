@@ -1,0 +1,59 @@
+{
+  "name": "BloodDonate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.10.1",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.5.0",
+    "@react-navigation/bottom-tabs": "^5.4.2",
+    "@react-navigation/material-bottom-tabs": "^5.2.2",
+    "@react-navigation/stack": "^5.3.3",
+    "axios": "^0.19.2",
+    "moment": "^2.25.3",
+    "react": "16.11.0",
+    "react-hook-form": "^5.7.2",
+    "react-moment": "^0.9.7",
+    "react-native": "0.62.2",
+    "react-native-elements": "^2.0.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-maps": "0.27.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-dropdown": "git+https://git@github.com/siemiatj/react-native-modal-dropdown.git",
+    "react-native-paper": "^3.10.1",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-safe-area-context": "^1.0.0",
+    "react-native-screens": "^2.7.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.3.9",
+    "react-navigation-material-bottom-tabs": "^2.2.12",
+    "react-navigation-stack": "^2.5.0",
+    "react-navigation-tabs": "^2.8.13",
+    "react-redux": "^7.2.0",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.5",
+    "sentence-splitter": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
